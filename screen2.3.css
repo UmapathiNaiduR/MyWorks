@@ -1,0 +1,60 @@
+body{
+    background-color:rgb(99, 144, 241);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 40px 40px 40px 40px;
+    width:40%;
+    height: 400px;
+    margin-top: 100px;
+  }
+
+
+label{
+    float: left;
+    margin-left: 40px;
+    font-weight: bold;
+    color:#000;
+}
+
+input{
+    float: right;
+    margin-right: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+ 
+input[type="text"], textarea { 
+    background-color : rgb(241, 160, 160); 
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+#test{
+    width: 182px;
+    margin-left: -5px;
+}
+
+button {
+    background:rgb(0, 5, 5);
+    padding: 6px;
+    border-radius: 5px;
+    font-size:small;
+    cursor: pointer;
+    margin-left: 190px;
+    color: #f3f5f7;
+  }
+
+.dd{
+    margin-left: -10px;
+    width: 183px;
+}
