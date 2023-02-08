@@ -1,0 +1,35 @@
+
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.line1{
+    text-align: center;
+}
+.line2{
+    float: left;
+    padding: 32px;
+
+}
+.line3{
+padding-left: 500px;
+
+
+}
+input{
+    padding-left: 50px;
+    }
+    /* .line4{
+        text-align: center;
+    margin-bottom: 200px;
+    } */
+    .line4{
+        padding-top: 30px;
+        
+
+    }
+    #F1,#F2,#F3,#F4,#F5,#F6,#F7,#F8{
+        margin-bottom: 26px;
+    }
+   

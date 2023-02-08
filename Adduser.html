@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add User</title>
+   <link href="add.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+</head>
+<body>
+    <form>
+    <fieldset>
+    <div class="whole">
+        
+    <div class="line1">
+<legend><header><h1>Add Employee</h1></header></legend>
+    </div>
+    <div class="line2">
+        <section> 
+            <label>Employee ID: </label><br><br><br>
+            <label>First Name: </label><br><br><br>
+            <label>Last Name: </label><br><br><br>
+            <label>E-mail ID: </label><br><br><br>
+            <label>Mobile no.: </label><br><br><br>
+            <label>Password: </label><br><br> <br>
+            <label>Confirm Password: </label><br><br><br>
+            <label>Department:</label>
+        </section>
+    </div>
+    <article>
+    <div class="line4">
+        <input type="text" id="F1" style="text-align: left;"/><br><br>
+        <input type="text" id="F2"/><br><br>
+        <input type="text" id="F3"/><br><br>
+        <input type="text" id="F4"/><br><br>
+        <input type="text" id="F5"/><br><br>
+        <input type="text" id="F6"/><br><br>
+        <input type="text" id="F7"/><br><br>
+        <input type="text" id="F8"/>
+    </article>
+    </div>
+    
+    <div class="line3">
+        <footer>
+            <button  id="btn1" onclick="myweb()">Add User</button>
+        </footer>
+    </div>
+
+</div>
+</fieldset>
+</form>
+
+    <script>
+        function myweb(){
+            let x=document.getElementById("F6").value;
+            let y=document.getElementById("F7").value;
+            
+if( x===y){
+    alert("Both password are same");
+}else if(x!=y){
+    alert("both are not same");
+}else{
+    alert("Fields are empty");
+}
+}
+
+    </script>
+
+</body>
+</html>
