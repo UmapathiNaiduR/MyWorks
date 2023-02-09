@@ -17,26 +17,26 @@ body{
 
 
 label{
-    float: left;
-    margin-left: 40px;
+  
     font-weight: bold;
     color:#000;
 }
 
 input{
-    float: right;
-    margin-right: 40px;
     border-radius: 5px;
-    border: none;
+
 }
 
  
 input[type="text"], textarea { 
-    background-color : rgb(241, 160, 160); 
+    background-color : white;
+    border-radius: 5px;
+    border-color: #000;
+    border: 1px solid black;
 }
 
 input:focus, textarea:focus, select:focus{
-    outline: none;
+    outline:auto;
 }
 
 #test{
@@ -52,12 +52,17 @@ button {
     cursor: pointer;
     margin-left: 190px;
     color: #f3f5f7;
-
   }
 
-.dd{
-    margin-left: -10px;
-    width: 183px;
+#rd{
+    margin-left: 0px;
+    
 }
-  }
+
+#field2{
+    width: 205px;
+}
+
+
+
 

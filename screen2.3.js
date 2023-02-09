@@ -5,7 +5,7 @@ style.innerHTML = `
   display: inline-block;
   padding: 2px 5px 0px 5px;
   border-radius: 4px;
-  border: solid 1px #ced4da;
+  border: solid 1px black;
   background-color: white;
   position: relative;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
@@ -18,14 +18,12 @@ style.innerHTML = `
   margin-bottom:2px;
   padding:1px 0; 
   border-radius: 4px; 
-  display:inline-block;
 }
 .multiselect-dropdown span.optext{
   background-color:lightgray;
   padding:1px 0.75em; 
 }
 .multiselect-dropdown span.optext .optdel {
-  float: right;
   margin: 0 -6px 1px 5px;
   font-size: 0.7em;
   margin-top: 2px;
@@ -70,10 +68,11 @@ style.innerHTML = `
 .multiselect-dropdown-list div{
   padding: 5px;
 }
+
 .multiselect-dropdown-list input{
   height: 1.15em;
   width: 1.15em;
-  margin-right: 0.35em;  
+  float: left 
 }
 .multiselect-dropdown-list div.checked{
 }
