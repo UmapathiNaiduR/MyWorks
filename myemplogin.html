@@ -1,0 +1,56 @@
+
+`````` <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myemp</title>
+</head>
+<style>
+    h2{
+        text-align: center;
+        margin-top: 40px;
+    
+        
+    }
+    
+    form{
+        text-align: center;
+        margin-top: 200px;
+    }       
+      form input{
+        margin-top: 20px;
+        
+      }
+      form label{
+       
+        margin-right: 10px;
+      }
+</style>
+<body >
+    <script>  
+        function validateform(){  
+        var name=document.myform.name.value;  
+        var password=document.myform.password.value;  
+          
+        if (name==null || name==" "){  
+          alert("Name can't be blank");  
+          return false;  
+        }else if(password.length<6){  
+          alert("Password must be at least 6 characters long.");  
+          return false;  
+          }     
+        }  
+        </script>  
+    <h2>MYEMP</h2>
+    
+    <form name="myform" method="post" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return validateform()" >  
+        <label for="empid">EMPLOYEE ID:</label> <input type="text" name="name" ><br/>  
+        <label for="password" style="margin-right: 35px;">PASSWORD:</label><input type="password" name="password" ><br/>  
+        <input type="submit" value="Login">  
+        </form>
+   
+</body>
+</html>
+
