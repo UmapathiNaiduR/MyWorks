@@ -1,0 +1,36 @@
+
+body{
+background:linear-gradient(white,rgb(133, 133, 221));
+}
+.Heading{
+   padding: 29px 0px 0px 600px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.input-details{
+
+  margin: 0px 0px 0px 450px;
+  padding: 30px;
+  font-size: 25px;
+}
+.submit{
+   padding: 0px 0px 80px 650px;
+}
+.ipf{
+   height: 35px;
+   font-size: medium;
+   width: 250px;
+   margin-left: 30px;
+
+}
+::placeholder{
+font-size: medium;
+}
+.emptable1{
+   border-collapse: separate;
+   border-spacing: 0 15px;
+}
+td{
+  margin-right: 20px;
+}
+
